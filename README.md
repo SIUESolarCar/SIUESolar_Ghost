@@ -6,7 +6,9 @@ This repository holds the Docker Compose for the team's Ghost Server.
 1.  Create a file called `.env` in your project directory and paste the following code in:
 
     ``` 
-    
+    PORT=82
+    URL=http://localhost:82
+    MYSQL_ROOT_PASSWORD=password
     ```
 
 2. Modify the `.env` file to your use case. 
